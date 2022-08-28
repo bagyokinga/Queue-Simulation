@@ -1,7 +1,7 @@
-## Queue-Simulation
+# Queue-Simulation
 Simulation and stochastic modelling of different types of queues with some analysis.
 
-# 1 type of customer problem
+## 1 type of customer problem
 - M/M/1 queue: a single line served by a single server on a first-come, first-served basis
 - n-server queue: a single line served by n servers
 - routing methods:
@@ -16,7 +16,7 @@ Simulation and stochastic modelling of different types of queues with some analy
     - comparison of average queue length from simulation with analytical solutions
     - observe how average queue length changes with the variance of average service rates ($\mu$-s are uniformly distributed, e.g. U[1,3] or U[1.9, 2.1])
 
-# 2 types of customer problems
+## 2 types of customer problems
 - type I and type II customers arriving
 - each server is capable of catering for both types of problems
 - servers have different mean service rates for type I and type II problems
@@ -27,7 +27,7 @@ Simulation and stochastic modelling of different types of queues with some analy
     - choose a customer from the longest queue
 - Question: Does the dependence of type I and type II mean service rates affect average queue length?
 
-# Files in the repository:
+## Files in the repository:
 - MM1 plots: M/M/1 queue
     - step plot of number of customers in the system
     - queue length pmf (i.e. steady state probabilities graph)
