@@ -5,7 +5,7 @@ Simulation and stochastic modelling of different types of queues with some analy
 - M/M/1 queue: a single line served by a single server on a first-come, first-served basis
 - n-server queue: a single line served by n servers
 - routing methods:
-    - index-based: first allocate to server 1, then server 2, etc.
+    - index-based: first customer allocated to server 1, next customer to server 2, etc.
     - random: route to a random server
     - longest idle: allocate next customer to longest idle server
 - abandonment/reneging: sometimes customers run out of patience and decide to leave the queue without being served
