@@ -14,7 +14,7 @@ Simulation and stochastic modelling of different types of queues with some analy
     - obtain analytical solutions for the steady state probabilities using Chapman-Kolmogorov equation
     - calculate average queue length from steady state probabilites
     - comparison of average queue length from simulation with analytical solutions
-    - observe how average queue length changes with the variance of average service rates ($\mu$-s are uniformly distributed, e.g. U[1,3] or U[1.9, 2.1])
+    - observe how average queue length changes with the variance of average service rates ($\mu$ -s are uniformly distributed, e.g. $U[1,3]$ or $U[1.9, 2.1]$)
 
 ## 2 types of customer problems
 - type I and type II customers arriving
@@ -39,5 +39,5 @@ Simulation and stochastic modelling of different types of queues with some analy
     - 1st come, 1st served
     - random
     - choose next customer from longer queue
-- correlation-L graphs: find correlation of $\mu_i1$ and $\mu_i2$, then graph it against average queue length obtained from simulation
+- correlation-L graphs: find correlation of $\mu_{i1}$ and $\mu_{i2}$, then graph it against average queue length obtained from simulation
     
