@@ -9,6 +9,10 @@ Simulation and stochastic modelling of different types of queues with some analy
     - random: route to a random server
     - longest idle: allocate next customer to longest idle server
 - abandonment/reneging: sometimes customers run out of patience and decide to leave the queue without being served
+- notation:
+    - $\mu$ : mean service rate (e.g. 2/hour)
+    - $\lambda$ : mean arrival rate of customers (e.g. 5/hour)
+    - $\gamma$ : mean abandonment rate (e.g. 2/hour means each customer has an average patience time of 0.5 hours)
 - analysis:
     - important features: utilization, throughput, average queue length...
     - obtain analytical solutions for the steady state probabilities using Chapman-Kolmogorov equation
