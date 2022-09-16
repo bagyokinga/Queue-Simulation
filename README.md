@@ -44,4 +44,6 @@ Simulation and stochastic modelling of different types of queues with some analy
     - random
     - choose next customer from longer queue
 - correlation-L graphs: find correlation of $\mu_{i1}$ and $\mu_{i2}$, then graph it against average queue length obtained from simulation
+    - two different designs to create mean service rates of varying dependence
+    - calculation of average queue lengths in different scenarios
     
